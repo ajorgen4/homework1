@@ -6,3 +6,8 @@ maintained, but they become one branch from that point on.
 Rebasing moves the history of a source branch up the history of a target branch. It makes it appear as though the source branch had always started there by taking
 the target branch commit it wants to look like it started from and reapplying the commits of the source branch from on it in a new branch. This keeps 2 branches,
 but alters the history of the source branch. This is usually used before a merge operation to make the history more linear and easy to understand.
+
+What is a remote repository?
+
+A remote repository is a repository stored on a remote server (frequently github, but it doesn't have to be). It is usually used for collaboration. Everyone works
+on the code and pushes their chagnes back to the remote repository when they are finished.
