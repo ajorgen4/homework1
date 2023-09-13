@@ -1,0 +1,8 @@
+What is the difference between a merge and a rebase?
+
+Merging combines 2 branches. If you had a branch to develop a new feature, and that feature is now complete, you would merge the branches. Both branch histories are
+maintained, but they become one branch from that point on.
+
+Rebasing moves the history of a source branch up the history of a target branch. It makes it appear as though the source branch had always started there by taking
+the target branch commit it wants to look like it started from and reapplying the commits of the source branch from on it in a new branch. This keeps 2 branches,
+but alters the history of the source branch. This is usually used before a merge operation to make the history more linear and easy to understand.
